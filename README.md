@@ -1,6 +1,13 @@
 \***_Eslint Steps_**
 
 1. npm i -D eslint
+2. npx eslint --init
+<!-- Install airbnb config  https://www.npmjs.com/package/eslint-config-airbnb-->
+3. npx install-peerdeps --dev eslint-config-airbnb
+4. in .eslintrc.cjs extends replace eslint:recommended with "airbnb", "airbnb/hooks"
+<!-- Install airbnb config typescript -->
+5. npm i -D eslint-config-airbnb-typescript
+6. in in .eslintrc.cjs extends add 'airbnb-typescript' (read repo or documentation)
 
 # React + TypeScript + Vite
 
