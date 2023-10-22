@@ -9,6 +9,16 @@
 5. npm i -D eslint-config-airbnb-typescript
 6. in in .eslintrc.cjs extends add 'airbnb-typescript' (read repo or documentation)
 
+**_Prettier Setup_**
+install
+
+1. npm install --save-dev eslint-config-prettier eslint-plugin-prettier.
+   <!-- configuration file -->
+2. add prettier.cjs https://prettier.io/docs/en/configuration
+<!--Integrating with Linters  -->
+3. add prettier to plugins in eslintrc.cjs https://github.com/prettier/eslint-plugin-prettier
+4. Then you need to add plugin:prettier/recommended as the last extension in your .eslintrc.json:
+
 # React + TypeScript + Vite
 
 This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
